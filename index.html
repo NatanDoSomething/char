@@ -1,26 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> hi char <3 <3 </title>
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #confetti {
+            position: fixed; /* or 'absolute' depending on your layout needs */
+            top: 0;
+            left: 0;
+            pointer-events: none; /* Ensures clicks go through the canvas */
+        }
+    </style>
 </head>
-
-
 <body>
-        <div class="wrapper">
-            <img src="thecat.jpeg" alt="A beautiful landscape">
-            <h2 class="question">wanna go fairgame together??</h2>
-
-            <div class="btn-group">
-
-
-                <button id="button" class="yes-btn"> Yeah sure</button>
-                <button class="no-btn">no.</button>
-            </div>
+    <div class="wrapper">
+        <img src="thecat.jpeg" alt="A beautiful landscape">
+        <h2 class="question">wanna go fairgame together??</h2>
+        <div class="btn-group">
+            <button id="button" class="yes-btn">Yeah sure</button>
+            <button class="no-btn">no.</button>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-<script src="script.js"></script>
-<canvas id="confetti"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="script.js"></script>
+    <canvas id="confetti"></canvas>
 </body>
 </html>
