@@ -27,6 +27,6 @@ const jsConfetti = new JSConfetti();
 
 button.addEventListener('click', () => {
     jsConfetti.addConfetti({
-        emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
+        emojis: ['⛄️', '❄️', '🧣', '🤰', '🛷', '🍦'],
     }).then(() => jsConfetti.addConfetti())
 })
